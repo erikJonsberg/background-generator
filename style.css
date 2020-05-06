@@ -1,0 +1,51 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(90deg, red 0, yellow 100%);
+    /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.angle {
+    margin: 20px auto;
+}
+
+.angle-input input {
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+
+.color-pickers input[type="color" i] {
+    border-radius: 3px;
+    height: 45px;
+    width: 95px;
+    padding: 5px;
+    border: 0
+}
